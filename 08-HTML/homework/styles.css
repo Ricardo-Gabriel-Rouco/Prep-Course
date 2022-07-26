@@ -2,6 +2,10 @@ h1 {
     color: indigo;
 }
 
+body {
+    background-image: url("media/1.jpg");
+}
+
 #spanId {
     font-size: 18px;
     margin: 50px;
@@ -19,4 +23,21 @@ img {
     border: .25em;
     border-style: dashed;
     border-radius: 15px;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
 }
