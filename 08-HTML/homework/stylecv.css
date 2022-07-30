@@ -1,0 +1,150 @@
+body{
+    background-color: #aaa293 !important;
+}
+
+#encabezado {
+    height: 758px;
+    background-color: #aaa293;
+    position: fixed;
+}
+
+#encabezado h1 {
+    text-align: center;
+    margin-top: .25em;
+    font-size: 36px; /* Tomar esto como medida, luego le haremos un sass para que sea facil cambiarlo */
+}
+
+#encabezado.menulateral {
+    text-align: center;
+}
+
+#datospersonales {
+    height: 758px;
+    padding-left: 40px;
+}
+
+#datospersonales h2 {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* color de fuente aca */
+}
+
+#datospersonales p {
+    font-size: 16px;
+    display: block;
+}
+
+#educacion {
+    height: 758px;
+    background-color: #Fff3dc;
+    padding-left: 40px;
+}
+
+#educacion h2 {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#educacion p {
+    font-size: 16px;
+    display: block;
+}
+
+#experiencia {
+    height: 758px;
+    padding-left: 40px;
+    background-color: #Fff3dc;
+}
+
+#experiencia h2 {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#experiencia p {
+    font-size: 16px;
+    display: block;
+}
+
+
+
+/* Globales */
+.sinestilo {
+    list-style: none;
+}
+
+header nav {
+    margin-top: 2em;
+}
+
+#info {
+    height: 758px;
+    background-color: #Fff3dc
+}
+
+#vacio {
+    height: 758px;
+    background-color: #aaa293;
+}
+
+img {
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    margin-top: 1em;
+}
+
+.foto {
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.quitarblanco {
+    margin-top: 0;
+}
+
+/*
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+#muestrainfo {
+    background-color: coral;
+    height: 758px;
+}
+
+.palaizquierda {
+    display: inline;
+    float: left !important;
+}
+
+.lista {
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+#avatar {
+    justify-content: center;
+    margin-left: 31%;
+}
+
+.fotito {
+    margin-top: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    
+} 
+*/
