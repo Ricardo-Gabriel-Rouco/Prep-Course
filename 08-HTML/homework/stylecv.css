@@ -18,63 +18,26 @@ body{
     text-align: center;
 }
 
-#datospersonales {
-    height: 758px;
-    padding-left: 40px;
-}
-
-#datospersonales h2 {
-    font-size: 25px;
-    text-align: left;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    /* color de fuente aca */
-}
-
-#datospersonales p {
-    font-size: 16px;
-    display: block;
-}
-
-#educacion {
-    height: 758px;
-    background-color: #Fff3dc;
-    padding-left: 40px;
-}
-
-#educacion h2 {
-    font-size: 25px;
-    text-align: left;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-#educacion p {
-    font-size: 16px;
-    display: block;
-}
-
-#experiencia {
-    height: 758px;
-    padding-left: 40px;
-    background-color: #Fff3dc;
-}
-
-#experiencia h2 {
-    font-size: 25px;
-    text-align: left;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-#experiencia p {
-    font-size: 16px;
-    display: block;
-}
-
-
-
 /* Globales */
+
+.secciones {
+    background-color: #Fff3dc;
+    height: 758px;
+    padding-left: 40px;
+}
+
+.seccionesh2 {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.seccionesp {
+    font-size: 16px;
+    display: block;
+}
+
 .sinestilo {
     list-style: none;
 }
