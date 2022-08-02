@@ -1,5 +1,6 @@
 body{
     background-color: #aaa293 !important;
+    color: #555149 !important;
 }
 
 #encabezado {
@@ -12,6 +13,7 @@ body{
     text-align: center;
     margin-top: .25em;
     font-size: 36px; /* Tomar esto como medida, luego le haremos un sass para que sea facil cambiarlo */
+    margin-left: .25em;
 }
 
 #encabezado.menulateral {
@@ -34,8 +36,10 @@ body{
 }
 
 .seccionesp {
+    justify-content: left;
     font-size: 16px;
     display: block;
+    margin-right: 3em;
 }
 
 .sinestilo {
@@ -49,11 +53,6 @@ header nav {
 #info {
     height: 758px;
     background-color: #Fff3dc
-}
-
-#vacio {
-    height: 758px;
-    background-color: #aaa293;
 }
 
 img {
@@ -75,39 +74,3 @@ img {
 .quitarblanco {
     margin-top: 0;
 }
-
-/*
-.titulo {
-    font-size: 2em;
-    text-align: center;
-    justify-content: center;
-}
-
-#muestrainfo {
-    background-color: coral;
-    height: 758px;
-}
-
-.palaizquierda {
-    display: inline;
-    float: left !important;
-}
-
-.lista {
-    list-style: none;
-    justify-content: center;
-    text-align: center;
-}
-
-#avatar {
-    justify-content: center;
-    margin-left: 31%;
-}
-
-.fotito {
-    margin-top: 20px;
-    vertical-align: middle;
-    border-radius: 50%;
-    
-} 
-*/
