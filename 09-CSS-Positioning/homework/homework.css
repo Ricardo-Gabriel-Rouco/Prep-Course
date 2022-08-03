@@ -50,8 +50,13 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     display: flex;
     justify-content: space-around;
     align-content: center;
+    /* Ejercicio 6. */
     flex-direction: row-reverse;
 }
 
+#ejercicionSiete {
+    
+}
 
-/* Ejercicio 6. */
+
+
