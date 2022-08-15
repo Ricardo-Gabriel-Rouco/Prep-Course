@@ -3,23 +3,6 @@ body{
     color: #555149 !important;
 }
 
-#encabezado {
-    height: 758px;
-    background-color: #aaa293;
-    position: fixed;
-}
-
-#encabezado h1 {
-    text-align: center;
-    margin-top: .25em;
-    font-size: 36px; /* Tomar esto como medida, luego le haremos un sass para que sea facil cambiarlo */
-    margin-left: .25em;
-}
-
-#encabezado.menulateral {
-    text-align: center;
-}
-
 /* Globales */
 
 .secciones {
@@ -40,14 +23,39 @@ body{
     font-size: 16px;
     display: block;
     margin-right: 3em;
+    margin-top: 1em;
 }
 
 .sinestilo {
     list-style: none;
 }
 
+.textoespecial {
+    display: block;
+    text-align: justify;
+    margin-right: 45px;
+}
+
 header nav {
     margin-top: 2em;
+}
+
+ /* estilos especificos */
+ #encabezado {
+    height: 758px;
+    background-color: #aaa293;
+    position: fixed;
+}
+
+#encabezado h1 {
+    text-align: center;
+    margin-top: .25em;
+    font-size: 36px; /* Tomar esto como medida, luego le haremos un sass para que sea facil cambiarlo */
+    margin-left: .25em;
+}
+
+#encabezado.menulateral {
+    text-align: center;
 }
 
 #info {
